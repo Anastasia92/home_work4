@@ -172,7 +172,7 @@ body {
 .account button {
 	width: 150px;
 	height: 35px;
-	background: #47a1d5;
+	background: linear-gradient(to top, #2e7bc4 , #4eabda);
 	color: #fff;
 	font-size: 15px;
 	border: none;
