@@ -13,50 +13,46 @@
     font-style: normal;
 }
 body {
-	background: url("C:/html_4/img/fon.jpg") no-repeat;
+	background: url("/html_4/img/fon.jpg") no-repeat;
 	background-size: cover; 
 	font-family: 'Helvetica Neue Regular', sans-serif;
 }
 .forum img {
 	vertical-align: middle;
+	padding-right: 10px;
+}
+.top_menu .forum a {
+	color: #fff;
 }
 .ajuda {
 	border-right: 1px solid #56a2dc;
-	height: 30px;
+	height: 40px;
 }
 .line {
 	text-decoration: underline;
 }
-.menu {
+.top_menu {
 	background: #074f8d;
  	width: 100%;
- 	height: 30px;
- 	margin: 0 auto;
+ 	height: 40px;
+ 	margin: 0 auto; 	
 }
-.forum, .top_menu  {
+.top_menu {
  	display: flex;
  	justify-content: flex-end; 	
 }
-.forum li,.top_menu li {
+.top_menu li {
 	display: inline-block;
 	position: relative;
 	list-style-type: none;
 }
 .top_menu a {
 	display: block;
-	line-height: 30px;
+	line-height: 40px;
 	color: #60b5ed;
 	font-size: 16px;
 	text-decoration: none;
 	padding: 0 20px; 
-}
-.forum a {
-	display: block;
-	line-height: 30px;
-	color: #fff;
-	font-size: 15px;
-	text-decoration: none;
-	padding: 0 30px; 
 }
 .top_menu a:hover {
 	background: #4eabda;
@@ -97,12 +93,12 @@ body {
 }
 .network .facebook {
 	background: url(http://aroosamanzar.com/uploads/images/facebook-logo-png-white-i6.png),	
-				
 				-webkit-gradient(linear, left top, left bottom,
 				color-stop(0%, #3c5598), color-stop(100%, #2e4579));
     background-size: 25px 25px, cover;
     background-position: 5px center, center center;
     background-repeat: no-repeat, repeat;
+    cursor: pointer
 }
 .ou {
 	display: block;
@@ -167,7 +163,8 @@ body {
 .square {
 	color: #cccccc;
 	text-align: center;
-	font-size: 18px
+	font-size: 18px;
+	padding: 15px 0;
 }
 .account button {
 	width: 150px;
@@ -178,10 +175,11 @@ body {
 	border: none;
 	border-radius: 4px;
 	margin: 20px 190px 0 190px;
+	cursor: pointer
 }
 .content {
 	color: #cccccc;
 	text-align: center;
-	padding-bottom: 50px;
+	padding: 40px 0;
 }
 
